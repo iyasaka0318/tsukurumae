@@ -22,8 +22,8 @@
   ],
   "checks": {
     "json_index_parse": "passed; 42 entries",
-    "markdown_relative_links": "passed; 0 broken references",
-    "secret_pattern_scan": "passed; 0 hits",
+    "markdown_relative_links": "passed; 0 broken file or conversation-anchor links",
+    "secret_pattern_scan": "passed; 0 hits across all 10 files (including validation.json)",
     "redaction_placeholder_occurrences": {
       "credential": 3,
       "channel_id": 3,
@@ -33,7 +33,8 @@
     },
     "local_paths_generalized": "passed; no literal Windows or Linux user-home paths copied",
     "snapshot_copies": "none available; documented in sources/README.md",
-    "only_target_folder_modified": "pending final remote diff check"
+    "only_target_folder_modified": "passed for this task: our initial commit added only 10 files under docs/handoff/raspberrypi-door-lock-handoff/. A concurrent commit added a separate handoff folder, which was preserved untouched; no non-handoff files were changed by our work.",
+    "remote_compare_note": "The final branch contains 25 additions versus the starting HEAD: our 10-file folder plus 15 files from a concurrent separate handoff folder."
   },
   "issues": {
     "broken_links": [],
