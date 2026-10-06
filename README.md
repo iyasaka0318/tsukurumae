@@ -48,7 +48,7 @@ skills/tsukurumae/
     readiness.md             作業ごとの確定条件
     evidence.md              証拠の強さと検証の段階
     hardware.md              ハードウェアの確認観点
-    software.md              ソフトウェアの確認観点（暫定版）
+    software.md              ソフトウェアの確認観点
     rework-catalog.md        実例から作った手戻りのパターン
     ledger-template.md       台帳の書式
 docs/
