@@ -15,7 +15,8 @@
 
 Codex では `$tsukurumae`。ハードウェアやソフトウェアを作る話題では、自動で読み込まれることもある。
 
-AI は案件の性質（ハードかソフトか、CAD を使うか、研究か趣味か）を発言と資料から判定し、分からないことだけを聞く。プロジェクトのルートに `TSUKURUMAE_LEDGER.md`（台帳）を作り、決定・仮定・試験結果を記録しながら進める。
+最初は**要件定義の段階**。AI が目的を言葉にして「これで合っていますか」と確かめ、開いた質問で方針を一緒に決める。あなたが話題にしていない分野（電装など）も AI から持ち出す。合意するまでコードや CAD は出さない。
+合意したら `TSUKURUMAE_REQUIREMENTS.md`（要件定義書）に残し、**実行の段階**に移る。実行中の状態は `TSUKURUMAE_LEDGER.md`（台帳）に記録する。
 
 ## インストール
 
@@ -66,7 +67,8 @@ skills/tsukurumae/
   SKILL.md                   本体：最優先ルール、始め方、原則、質問の出し方、送信前チェック
   agents/openai.yaml         Codex 用の設定
   references/
-    intake.md                案件の受け取り方
+    intake.md                要件定義の段階の進め方と、分野ごとの観点
+    requirements-template.md 要件定義書の書式
     readiness.md             作業ごとの確定条件
     evidence.md              証拠の強さと検証の段階
     hardware.md              ハードウェアの確認観点
