@@ -1,0 +1,1058 @@
+{
+    "total_turns":  70,
+    "turns":  [
+                  {
+                      "id":  "C001",
+                      "anchor":  "c001",
+                      "date_estimate":  "2026-08-12 夕〜夜（推定）",
+                      "kind":  "turn",
+                      "user_chars":  174,
+                      "has_progress":  true,
+                      "answer_chars":  115,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C002",
+                      "anchor":  "c002",
+                      "date_estimate":  "2026-08-12 夕〜夜（推定）",
+                      "kind":  "turn",
+                      "user_chars":  142,
+                      "has_progress":  true,
+                      "answer_chars":  69,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C003",
+                      "anchor":  "c003",
+                      "date_estimate":  "2026-08-12 夕〜夜（推定）",
+                      "kind":  "turn",
+                      "user_chars":  29,
+                      "has_progress":  true,
+                      "answer_chars":  315,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+                                   "差分分析"
+                               ]
+                  },
+                  {
+                      "id":  "C004",
+                      "anchor":  "c004",
+                      "date_estimate":  "2026-08-12 夕〜夜（推定）",
+                      "kind":  "choice",
+                      "user_chars":  61,
+                      "has_progress":  true,
+                      "answer_chars":  143,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+                                   "安全網"
+                               ]
+                  },
+                  {
+                      "id":  "C005",
+                      "anchor":  "c005",
+                      "date_estimate":  "2026-08-12 夕〜夜（推定）",
+                      "kind":  "turn",
+                      "user_chars":  47,
+                      "has_progress":  true,
+                      "answer_chars":  93,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C006",
+                      "anchor":  "c006",
+                      "date_estimate":  "2026-08-12 夕〜夜（推定）",
+                      "kind":  "choice",
+                      "user_chars":  40,
+                      "has_progress":  true,
+                      "answer_chars":  53,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C007",
+                      "anchor":  "c007",
+                      "date_estimate":  "2026-08-12 夕〜夜（推定）",
+                      "kind":  "turn",
+                      "user_chars":  56,
+                      "has_progress":  true,
+                      "answer_chars":  46,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C008",
+                      "anchor":  "c008",
+                      "date_estimate":  "2026-08-12 夕〜夜（推定）",
+                      "kind":  "turn",
+                      "user_chars":  42,
+                      "has_progress":  true,
+                      "answer_chars":  95,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C009",
+                      "anchor":  "c009",
+                      "date_estimate":  "2026-08-12 夕〜夜（推定）",
+                      "kind":  "turn",
+                      "user_chars":  165,
+                      "has_progress":  true,
+                      "answer_chars":  115,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C010",
+                      "anchor":  "c010",
+                      "date_estimate":  "2026-08-12 夕〜夜（推定）",
+                      "kind":  "turn",
+                      "user_chars":  9,
+                      "has_progress":  false,
+                      "answer_chars":  62,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C011",
+                      "anchor":  "c011",
+                      "date_estimate":  "2026-08-12 23時台〜08-13 01時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  110,
+                      "has_progress":  true,
+                      "answer_chars":  120,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C012",
+                      "anchor":  "c012",
+                      "date_estimate":  "2026-08-12 23時台〜08-13 01時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  48,
+                      "has_progress":  false,
+                      "answer_chars":  19,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C013",
+                      "anchor":  "c013",
+                      "date_estimate":  "2026-08-12 23時台〜08-13 01時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  149,
+                      "has_progress":  false,
+                      "answer_chars":  64,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C014",
+                      "anchor":  "c014",
+                      "date_estimate":  "2026-08-12 23時台〜08-13 01時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  108,
+                      "has_progress":  false,
+                      "answer_chars":  52,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C015",
+                      "anchor":  "c015",
+                      "date_estimate":  "2026-08-12 23時台〜08-13 01時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  130,
+                      "has_progress":  false,
+                      "answer_chars":  130,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+                                   "推測を強く表現"
+                               ]
+                  },
+                  {
+                      "id":  "C016",
+                      "anchor":  "c016",
+                      "date_estimate":  "2026-08-12 23時台〜08-13 01時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  105,
+                      "has_progress":  false,
+                      "answer_chars":  176,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C017",
+                      "anchor":  "c017",
+                      "date_estimate":  "2026-08-12 23時台〜08-13 01時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  129,
+                      "has_progress":  false,
+                      "answer_chars":  113,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C018",
+                      "anchor":  "c018",
+                      "date_estimate":  "2026-08-12 23時台〜08-13 01時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  50,
+                      "has_progress":  false,
+                      "answer_chars":  48,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C019",
+                      "anchor":  "c019",
+                      "date_estimate":  "2026-08-12 23時台〜08-13 01時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  164,
+                      "has_progress":  false,
+                      "answer_chars":  119,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C020",
+                      "anchor":  "c020",
+                      "date_estimate":  "2026-08-12 23時台〜08-13 01時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  50,
+                      "has_progress":  false,
+                      "answer_chars":  148,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C021",
+                      "anchor":  "c021",
+                      "date_estimate":  "2026-08-12 23時台〜08-13 01時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  94,
+                      "has_progress":  false,
+                      "answer_chars":  75,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C022",
+                      "anchor":  "c022",
+                      "date_estimate":  "2026-08-12 23時台〜08-13 01時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  40,
+                      "has_progress":  false,
+                      "answer_chars":  73,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C023",
+                      "anchor":  "c023",
+                      "date_estimate":  "2026-08-12 23時台〜08-13 01時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  105,
+                      "has_progress":  false,
+                      "answer_chars":  198,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C024",
+                      "anchor":  "c024",
+                      "date_estimate":  "2026-08-12 23時台〜08-13 01時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  126,
+                      "has_progress":  false,
+                      "answer_chars":  71,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C025",
+                      "anchor":  "c025",
+                      "date_estimate":  "2026-08-12 23時台〜08-13 01時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  41,
+                      "has_progress":  true,
+                      "answer_chars":  220,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+                                   "ログ復旧"
+                               ]
+                  },
+                  {
+                      "id":  "C026",
+                      "anchor":  "c026",
+                      "date_estimate":  "2026-08-13 01時台〜02時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  69,
+                      "has_progress":  false,
+                      "answer_chars":  174,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C027",
+                      "anchor":  "c027",
+                      "date_estimate":  "2026-08-13 01時台〜02時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  246,
+                      "has_progress":  false,
+                      "answer_chars":  158,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+                                   "秘密情報が会話に露出"
+                               ]
+                  },
+                  {
+                      "id":  "C028",
+                      "anchor":  "c028",
+                      "date_estimate":  "2026-08-13 01時台〜02時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  20,
+                      "has_progress":  false,
+                      "answer_chars":  63,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C029",
+                      "anchor":  "c029",
+                      "date_estimate":  "2026-08-13 01時台〜02時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  264,
+                      "has_progress":  true,
+                      "answer_chars":  259,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+                                   "検出不可と断言（後に撤回）"
+                               ]
+                  },
+                  {
+                      "id":  "C030",
+                      "anchor":  "c030",
+                      "date_estimate":  "2026-08-13 01時台〜02時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  170,
+                      "has_progress":  true,
+                      "answer_chars":  226,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+                                   "ウォッチドッグ新設"
+                               ]
+                  },
+                  {
+                      "id":  "C031",
+                      "anchor":  "c031",
+                      "date_estimate":  "2026-08-13 01時台〜02時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  174,
+                      "has_progress":  true,
+                      "answer_chars":  407,
+                      "snapshots":  [
+                                        "S04"
+                                    ],
+                      "tags":  [
+                                   "磁気リーダー"
+                               ]
+                  },
+                  {
+                      "id":  "C032",
+                      "anchor":  "c032",
+                      "date_estimate":  "2026-08-13 01時台〜02時台（推定）",
+                      "kind":  "meta",
+                      "user_chars":  33,
+                      "has_progress":  false,
+                      "answer_chars":  31,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C033",
+                      "anchor":  "c033",
+                      "date_estimate":  "2026-08-13 日中〜夜（推定）",
+                      "kind":  "turn",
+                      "user_chars":  34,
+                      "has_progress":  true,
+                      "answer_chars":  44,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C034",
+                      "anchor":  "c034",
+                      "date_estimate":  "2026-08-13 日中〜夜（推定）",
+                      "kind":  "turn",
+                      "user_chars":  40,
+                      "has_progress":  true,
+                      "answer_chars":  287,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C035",
+                      "anchor":  "c035",
+                      "date_estimate":  "2026-08-13 日中〜夜（推定）",
+                      "kind":  "turn",
+                      "user_chars":  80,
+                      "has_progress":  false,
+                      "answer_chars":  120,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C036",
+                      "anchor":  "c036",
+                      "date_estimate":  "2026-08-13 日中〜夜（推定）",
+                      "kind":  "turn",
+                      "user_chars":  106,
+                      "has_progress":  false,
+                      "answer_chars":  133,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C037",
+                      "anchor":  "c037",
+                      "date_estimate":  "2026-08-13 日中〜夜（推定）",
+                      "kind":  "turn",
+                      "user_chars":  145,
+                      "has_progress":  false,
+                      "answer_chars":  303,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C038",
+                      "anchor":  "c038",
+                      "date_estimate":  "2026-08-13 日中〜夜（推定）",
+                      "kind":  "turn",
+                      "user_chars":  129,
+                      "has_progress":  true,
+                      "answer_chars":  120,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+                                   "外部仕様を根拠にした推定"
+                               ]
+                  },
+                  {
+                      "id":  "C039",
+                      "anchor":  "c039",
+                      "date_estimate":  "2026-08-13 日中〜夜（推定）",
+                      "kind":  "turn",
+                      "user_chars":  72,
+                      "has_progress":  false,
+                      "answer_chars":  101,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C040",
+                      "anchor":  "c040",
+                      "date_estimate":  "2026-08-13 日中〜夜（推定）",
+                      "kind":  "turn",
+                      "user_chars":  51,
+                      "has_progress":  true,
+                      "answer_chars":  195,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C041",
+                      "anchor":  "c041",
+                      "date_estimate":  "2026-08-13 日中〜夜（推定）",
+                      "kind":  "turn",
+                      "user_chars":  269,
+                      "has_progress":  true,
+                      "answer_chars":  192,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C042",
+                      "anchor":  "c042",
+                      "date_estimate":  "2026-08-13 日中〜夜（推定）",
+                      "kind":  "turn",
+                      "user_chars":  32,
+                      "has_progress":  true,
+                      "answer_chars":  107,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C043",
+                      "anchor":  "c043",
+                      "date_estimate":  "2026-08-13 日中〜夜（推定）",
+                      "kind":  "turn",
+                      "user_chars":  47,
+                      "has_progress":  false,
+                      "answer_chars":  93,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C044",
+                      "anchor":  "c044",
+                      "date_estimate":  "2026-08-13 日中〜夜（推定）",
+                      "kind":  "turn",
+                      "user_chars":  31,
+                      "has_progress":  true,
+                      "answer_chars":  338,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+                                   "バイトコード解析"
+                               ]
+                  },
+                  {
+                      "id":  "C045",
+                      "anchor":  "c045",
+                      "date_estimate":  "2026-08-13 日中〜夜（推定）",
+                      "kind":  "turn",
+                      "user_chars":  6,
+                      "has_progress":  true,
+                      "answer_chars":  95,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C046",
+                      "anchor":  "c046",
+                      "date_estimate":  "2026-08-13 日中〜夜（推定）",
+                      "kind":  "turn",
+                      "user_chars":  93,
+                      "has_progress":  false,
+                      "answer_chars":  354,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C047",
+                      "anchor":  "c047",
+                      "date_estimate":  "2026-08-22 01時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  40,
+                      "has_progress":  false,
+                      "answer_chars":  111,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C048",
+                      "anchor":  "c048",
+                      "date_estimate":  "2026-08-22 01時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  171,
+                      "has_progress":  false,
+                      "answer_chars":  102,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C049",
+                      "anchor":  "c049",
+                      "date_estimate":  "2026-08-22 01時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  160,
+                      "has_progress":  true,
+                      "answer_chars":  149,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+                                   "ウォッチドッグ削除の判断"
+                               ]
+                  },
+                  {
+                      "id":  "C050",
+                      "anchor":  "c050",
+                      "date_estimate":  "2026-08-22 01時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  41,
+                      "has_progress":  true,
+                      "answer_chars":  130,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C051",
+                      "anchor":  "c051",
+                      "date_estimate":  "2026-08-22 01時台（推定）",
+                      "kind":  "turn",
+                      "user_chars":  112,
+                      "has_progress":  true,
+                      "answer_chars":  92,
+                      "snapshots":  [
+                                        "S03",
+                                        "S06"
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C052",
+                      "anchor":  "c052",
+                      "date_estimate":  "2026-08-24 午後（推定）",
+                      "kind":  "turn",
+                      "user_chars":  93,
+                      "has_progress":  false,
+                      "answer_chars":  170,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C053",
+                      "anchor":  "c053",
+                      "date_estimate":  "2026-08-24 午後（推定）",
+                      "kind":  "turn",
+                      "user_chars":  158,
+                      "has_progress":  false,
+                      "answer_chars":  72,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C054",
+                      "anchor":  "c054",
+                      "date_estimate":  "2026-08-24 午後（推定）",
+                      "kind":  "turn",
+                      "user_chars":  94,
+                      "has_progress":  false,
+                      "answer_chars":  191,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+                                   "自己訂正"
+                               ]
+                  },
+                  {
+                      "id":  "C055",
+                      "anchor":  "c055",
+                      "date_estimate":  "2026-08-24 午後（推定）",
+                      "kind":  "turn",
+                      "user_chars":  23,
+                      "has_progress":  true,
+                      "answer_chars":  68,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C056",
+                      "anchor":  "c056",
+                      "date_estimate":  "2026-08-24 午後（推定）",
+                      "kind":  "turn",
+                      "user_chars":  38,
+                      "has_progress":  true,
+                      "answer_chars":  156,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C057",
+                      "anchor":  "c057",
+                      "date_estimate":  "2026-08-24 午後（推定）",
+                      "kind":  "turn",
+                      "user_chars":  34,
+                      "has_progress":  true,
+                      "answer_chars":  246,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C058",
+                      "anchor":  "c058",
+                      "date_estimate":  "2026-08-24 午後（推定）",
+                      "kind":  "turn",
+                      "user_chars":  73,
+                      "has_progress":  true,
+                      "answer_chars":  139,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C059",
+                      "anchor":  "c059",
+                      "date_estimate":  "2026-08-24 午後（推定）",
+                      "kind":  "turn",
+                      "user_chars":  77,
+                      "has_progress":  true,
+                      "answer_chars":  68,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C060",
+                      "anchor":  "c060",
+                      "date_estimate":  "2026-08-28 午前（推定）",
+                      "kind":  "turn",
+                      "user_chars":  103,
+                      "has_progress":  true,
+                      "answer_chars":  213,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C061",
+                      "anchor":  "c061",
+                      "date_estimate":  "2026-08-28 午前（推定）",
+                      "kind":  "turn",
+                      "user_chars":  14,
+                      "has_progress":  false,
+                      "answer_chars":  59,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C062",
+                      "anchor":  "c062",
+                      "date_estimate":  "2026-08-28 午前（推定）",
+                      "kind":  "turn",
+                      "user_chars":  118,
+                      "has_progress":  true,
+                      "answer_chars":  208,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+                                   "git add -A で他者のファイルを巻き込み"
+                               ]
+                  },
+                  {
+                      "id":  "C063",
+                      "anchor":  "c063",
+                      "date_estimate":  "2026-08-28 午前（推定）",
+                      "kind":  "turn",
+                      "user_chars":  192,
+                      "has_progress":  true,
+                      "answer_chars":  135,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C064",
+                      "anchor":  "c064",
+                      "date_estimate":  "2026-08-28 午前（推定）",
+                      "kind":  "turn",
+                      "user_chars":  125,
+                      "has_progress":  true,
+                      "answer_chars":  107,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C065",
+                      "anchor":  "c065",
+                      "date_estimate":  "2026-08-28 午前（推定）",
+                      "kind":  "turn",
+                      "user_chars":  19,
+                      "has_progress":  false,
+                      "answer_chars":  107,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C066",
+                      "anchor":  "c066",
+                      "date_estimate":  "2026-08-28 午前（推定）",
+                      "kind":  "turn",
+                      "user_chars":  69,
+                      "has_progress":  true,
+                      "answer_chars":  58,
+                      "snapshots":  [
+                                        "S05"
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C067",
+                      "anchor":  "c067",
+                      "date_estimate":  "2026-08-28 昼（推定）",
+                      "kind":  "turn",
+                      "user_chars":  60,
+                      "has_progress":  false,
+                      "answer_chars":  90,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C068",
+                      "anchor":  "c068",
+                      "date_estimate":  "2026-08-28 昼（推定）",
+                      "kind":  "turn",
+                      "user_chars":  163,
+                      "has_progress":  true,
+                      "answer_chars":  285,
+                      "snapshots":  [
+                                        "S04"
+                                    ],
+                      "tags":  [
+                                   "自己訂正",
+                                   "レビュー提案"
+                               ]
+                  },
+                  {
+                      "id":  "C069",
+                      "anchor":  "c069",
+                      "date_estimate":  "2026-08-28 昼（推定）",
+                      "kind":  "turn",
+                      "user_chars":  107,
+                      "has_progress":  true,
+                      "answer_chars":  119,
+                      "snapshots":  [
+                                        "S01",
+                                        "S02"
+                                    ],
+                      "tags":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "C070",
+                      "anchor":  "c070",
+                      "date_estimate":  "2026-08-28 昼（推定）",
+                      "kind":  "turn",
+                      "user_chars":  201,
+                      "has_progress":  false,
+                      "answer_chars":  122,
+                      "snapshots":  [
+
+                                    ],
+                      "tags":  [
+
+                               ]
+                  }
+              ]
+}

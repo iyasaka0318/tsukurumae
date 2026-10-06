@@ -1,0 +1,62 @@
+{
+    "folder":  "docs/handoff/door-lock-rpi-handoff",
+    "counts":  {
+                   "conversation_turns":  70,
+                   "user_entries":  70,
+                   "user_entries_by_kind":  {
+                                                "turn":  67,
+                                                "choice":  2,
+                                                "meta":  1
+                                            },
+                   "ai_progress_turns":  37,
+                   "ai_answer_turns":  69,
+                   "failures_F":  12,
+                   "good_behaviors_G":  12,
+                   "eval_cases_E":  16,
+                   "snapshots_S":  6
+               },
+    "links":  {
+                  "checked":  196,
+                  "broken":  [
+
+                             ],
+                  "turn_refs_out_of_range":  [
+
+                                             ],
+                  "skipped_snapshot_files":  5,
+                  "skipped_reason":  "スナップショットは原文のまま保存しており、相対リンクが元のリポジトリ基準のため検証対象外"
+              },
+    "anchors":  {
+                    "conversation_anchors":  70,
+                    "index_entries":  70,
+                    "match":  true
+                },
+    "json_valid":  {
+                       "conversation-index.json":  true
+                   },
+    "secret_scan":  {
+                        "patterns_hit_counts":  {
+                                                    "sk-[A-Za-z0-9]{8,}":  0,
+                                                    "ghp_":  0,
+                                                    "github_pat_":  0,
+                                                    "AKIA[A-Z0-9]{8,}":  0,
+                                                    "-----BEGIN":  0,
+                                                    "password":  0,
+                                                    "token":  1,
+                                                    "api_key":  0,
+                                                    "Bearer ":  0
+                                                },
+                        "excluded_from_scan":  [
+                                                   "README.md の、検索パターンを列挙している説明の1行",
+                                                   "\u003cREDACTED:...\u003e 形式のプレースホルダ名"
+                                               ],
+                        "reviewed":  "token の1件は、会話記録 C027 の設定のキー名 discordToken への言及で、値は \u003cREDACTED:discord-bot-token\u003e に置き換え済み。それ以外のパターンは0件。",
+                        "original_identifiers_remaining":  0,
+                        "long_hex_or_base64_hits":  1,
+                        "long_hex_or_base64_review":  "該当は複数のクラス名やパスをスラッシュでつないだ文字列で、秘密値ではない。"
+                    },
+    "notes":  [
+                  "Python と Node.js が使えない環境のため、生成・検証は PowerShell で行った。",
+                  "リンク検証は相対リンクの存在と a id アンカーの存在を確認した。外部URLは確認していない。"
+              ]
+}

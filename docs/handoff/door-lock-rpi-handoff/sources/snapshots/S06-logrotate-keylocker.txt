@@ -1,0 +1,18 @@
+# 配置先: /etc/logrotate.d/keylocker
+#
+# copytruncate が必須。
+# 通常のローテーションはファイルを mv でリネームして新規作成するが、
+# runKey.sh の tee -a は開いたままのファイルディスクリプタに書き続けるため、
+# リネーム後も古い inode に書き込み続けてしまい、新しいログが永遠に空になる。
+# copytruncate は中身をコピーしてから元ファイルを長さ0に切り詰めるので
+# inode が変わらず、tee はそのまま書き続けられる。
+# (tee -a は O_APPEND で開いているので、切り詰め後は自動的に先頭から再開される)
+/home/<PI-USER>/keylog2.txt {
+    daily
+    rotate 7
+    compress
+    delaycompress
+    missingok
+    notifempty
+    copytruncate
+}
