@@ -19,17 +19,36 @@ AI は案件の性質（ハードかソフトか、CAD を使うか、研究か�
 
 ## インストール
 
+### プラグインとして入れる（おすすめ）
+
+各マシンで1回だけ実行する。Skill を直して push したら、更新コマンドで反映される。
+
+```bash
+# Claude Code
+claude plugin marketplace add iyasaka0318/tsukurumae
+claude plugin install tsukurumae@tsukurumae
+# 更新
+claude plugin update tsukurumae@tsukurumae
+```
+
+```bash
+# Codex（未確認。読み込めなければ下の「手でコピー」を使う）
+codex plugin marketplace add iyasaka0318/tsukurumae --ref main
+codex plugin add tsukurumae@tsukurumae
+```
+
+プラグインとして入れると、呼び出しが `/tsukurumae:tsukurumae` になる場合がある（未確認）。
+
+### 手でコピーする
+
 ```bash
 # Claude Code（全プロジェクト）
 cp -r skills/tsukurumae ~/.claude/skills/
-# Claude Code（このプロジェクトだけ）
-cp -r skills/tsukurumae <project>/.claude/skills/
-
 # Codex（全プロジェクト）
 cp -r skills/tsukurumae ~/.agents/skills/
-# Codex（このプロジェクトだけ）
-cp -r skills/tsukurumae <project>/.agents/skills/
 ```
+
+クラウドのセッションでは、ユーザー設定のプラグインが引き継がれないことがある。クラウドで使うプロジェクトでは、そのリポジトリの `.claude/skills/tsukurumae/`（Codex は `.agents/skills/tsukurumae/`）に置く。
 
 台帳があるプロジェクトで毎回確実に使わせたい場合は、そのプロジェクトの `CLAUDE.md` または `AGENTS.md` に次の1行を加える。
 
@@ -40,6 +59,9 @@ cp -r skills/tsukurumae <project>/.agents/skills/
 ## 構成
 
 ```
+.claude-plugin/               Claude Code のプラグイン定義
+.codex-plugin/                Codex のプラグイン定義
+.agents/plugins/              Codex のマーケットプレイス定義
 skills/tsukurumae/
   SKILL.md                   本体：最優先ルール、始め方、原則、質問の出し方、送信前チェック
   agents/openai.yaml         Codex 用の設定

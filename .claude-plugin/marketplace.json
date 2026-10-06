@@ -1,0 +1,16 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "tsukurumae",
+  "description": "作る前に、作るために必要なことを確かめる Skill。",
+  "owner": {
+    "name": "iyasaka0318"
+  },
+  "plugins": [
+    {
+      "name": "tsukurumae",
+      "description": "ハードウェア・ソフトウェア開発で、作る前に確かめれば防げた手戻りを減らす。",
+      "source": "./",
+      "category": "development"
+    }
+  ]
+}

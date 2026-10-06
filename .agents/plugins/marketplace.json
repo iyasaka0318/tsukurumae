@@ -1,0 +1,21 @@
+{
+  "name": "tsukurumae",
+  "interface": {
+    "displayName": "tsukurumae"
+  },
+  "plugins": [
+    {
+      "name": "tsukurumae",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/iyasaka0318/tsukurumae.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

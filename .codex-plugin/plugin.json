@@ -1,0 +1,33 @@
+{
+  "name": "tsukurumae",
+  "description": "作る前に、作るために必要なことを確かめる。ハードウェア・ソフトウェア開発の手戻りを減らす行動方針。",
+  "author": {
+    "name": "iyasaka0318",
+    "url": "https://github.com/iyasaka0318"
+  },
+  "homepage": "https://github.com/iyasaka0318/tsukurumae",
+  "repository": "https://github.com/iyasaka0318/tsukurumae",
+  "keywords": [
+    "hardware",
+    "embedded",
+    "requirements",
+    "planning",
+    "skills",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "tsukurumae",
+    "shortDescription": "作る前に確かめて、開発の手戻りを減らす",
+    "longDescription": "部品選定・CAD・実装・通電・デプロイに進む前に、目的から確認事項を見つけ、調べることと聞くことを分け、作業ごとの確定条件を満たしてから確定する。",
+    "developerName": "iyasaka0318",
+    "category": "Productivity",
+    "capabilities": [
+      "Instructions"
+    ],
+    "websiteURL": "https://github.com/iyasaka0318/tsukurumae",
+    "defaultPrompt": [
+      "Use tsukurumae for this build."
+    ]
+  }
+}
