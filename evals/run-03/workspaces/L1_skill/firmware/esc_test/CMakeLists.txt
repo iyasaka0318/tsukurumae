@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.13)
+set(PICO_BOARD pico_w)
+include(pico_sdk_import.cmake)   # Pico SDK の external/pico_sdk_import.cmake をこのフォルダーにコピーする
+project(esc_test C CXX ASM)
+pico_sdk_init()
+add_executable(esc_test main.c)
+target_link_libraries(esc_test pico_stdlib hardware_pwm)
+pico_enable_stdio_usb(esc_test 1)
+pico_enable_stdio_uart(esc_test 0)
+pico_add_extra_outputs(esc_test)
