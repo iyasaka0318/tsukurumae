@@ -1,0 +1,96 @@
+{
+  "captured_on": "2026-10-06",
+  "sources": [
+    {
+      "id": "S01",
+      "original_relative_path": "outputs/テスト手順と設計更新.md",
+      "original_sha256": "e40c25beb2336c66348983eca115fed460ac0813950b0612b2c134b024ede49d",
+      "snapshot_relative_path": "sources/snapshots/S01-fit-test.md",
+      "snapshot_sha256": "66840b71f121ada0d68b8ed1a785693d8400b768d34f16dab9144d21c5547d59"
+    },
+    {
+      "id": "S02",
+      "original_relative_path": "outputs/Pico_test_v2_印刷メモ.md",
+      "original_sha256": "b073df96192ee587166be3979cea02f934f3dcbbf8e6faffcd8b2f7ee34ca3ea",
+      "snapshot_relative_path": "sources/snapshots/S02-pico-v2.md",
+      "snapshot_sha256": "827923ea3fbc5d61d70bd729c094fd1058781a4f0d9eca53c427818a9039ecf5"
+    },
+    {
+      "id": "S03",
+      "original_relative_path": "outputs/ドローン_配線実測と配置計画_更新待ち.md",
+      "original_sha256": "a2e1c142bd2c8149e805a69da863e0025c235094611c96c9c54b29a6c6432d6a",
+      "snapshot_relative_path": "sources/snapshots/S03-wiring-plan.md",
+      "snapshot_sha256": "4cadb2dcd48d27077f208894ca3278ba177ba3a3fd4b4ddc88f790727ab6acf2"
+    },
+    {
+      "id": "S04",
+      "original_relative_path": "outputs/研究用倒立ロボット_最小構成と選定基準.md",
+      "original_sha256": "bd78e662dd6a18a85d0653086adadd3c91aac5843419aa6bd7a0905beec91a5e",
+      "snapshot_relative_path": "sources/snapshots/S04-robot-selection.md",
+      "snapshot_sha256": "0ae84d046b1aabd934485e5655ffb9b9c7f182bd58407e911c3bba7749d95d3d"
+    },
+    {
+      "id": "S05",
+      "original_relative_path": "outputs/バッテリー実測記録.md",
+      "original_sha256": "0a36e3a0fd2f02c3c2572b3576b51eb083a940ce9542439c9b36b96a00bb5b42",
+      "snapshot_relative_path": "sources/snapshots/S05-battery.md",
+      "snapshot_sha256": "ab0686b2b7d5f7798993866cc843d8f1584a23f7d4aa6710f2b4bf8cb03d8036"
+    },
+    {
+      "id": "S06",
+      "original_relative_path": "outputs/orca_presets/読み込みと使い分け.md",
+      "original_sha256": "f14e00adeb57782fc6ff72b4f1d6f2ad9a12ff453b8430152166e118f3c45dd2",
+      "snapshot_relative_path": "sources/snapshots/S06-orca-presets.md",
+      "snapshot_sha256": "52123d4f5058f4f66fc38159453f0fe3f305ada2f5ebc54e3ac30f435738b19e"
+    },
+    {
+      "id": "S07",
+      "original_relative_path": "outputs/倒立ロボット_v5_確認結果.md",
+      "original_sha256": "474cf071913f2445e631f29f11a96e93b2abeb99b430e1b0b3f43a56d6561f31",
+      "snapshot_relative_path": "sources/snapshots/S07-robot-v5-review.md",
+      "snapshot_sha256": "7dc1cbcfa979d72a604aec2590ce3379f4d287d4281403814c3af61e3c73ee55"
+    },
+    {
+      "id": "S08",
+      "original_relative_path": "outputs/esc_one_motor/実機テスト結果_2026-10-06.md",
+      "original_sha256": "e531a3dbdd6d87924805716d12a6ebd4c9588ce4325e378700fbe3da7c1d8309",
+      "snapshot_relative_path": "sources/snapshots/S08-motor-test.md",
+      "snapshot_sha256": "a4bd97a088108639ec270845308301ef97be42586996664e414f02a63c1d3618"
+    },
+    {
+      "id": "S09",
+      "original_relative_path": "outputs/drone_pico_w_v1/設計と組立.md",
+      "original_sha256": "6c429f21b3acfafd7e850518fbf177fed58441a726859dffc7c0a11327fc1804",
+      "snapshot_relative_path": "sources/snapshots/S09-drone-v1.md",
+      "snapshot_sha256": "e3faf5074c9beed56597da8b8b9218348ea3bbf44f9999700cd685523a7ea7e7"
+    },
+    {
+      "id": "S10",
+      "original_relative_path": "outputs/倒立ロボット_設計レビューと配置_v5.md",
+      "original_sha256": "0f00156ea2214a401e5f5ba6b9a56c0252306a33886f0119be01b71bad4a5a89",
+      "snapshot_relative_path": "sources/snapshots/S10-robot-v5-plan.md",
+      "snapshot_sha256": "c933e0463210483a2f94568fba44c4b14feccaab76587367a86ef060e55c4e1c"
+    },
+    {
+      "id": "S11",
+      "original_relative_path": "outputs/倒立ロボット_全体回路案_v5.md",
+      "original_sha256": "5f6e39f812e190c2f812b72b398bc6fc95e799cc09b70489749f95b7181f01a1",
+      "snapshot_relative_path": "sources/snapshots/S11-robot-v5-circuit.md",
+      "snapshot_sha256": "09cad27c428ec4d68ad63a8d2164288e1c155917ffa61f69878a560b4f0cb097"
+    },
+    {
+      "id": "S12",
+      "original_relative_path": "outputs/倒立ロボット_計測とログ実装仕様_v5.md",
+      "original_sha256": "63b71aad143f875fbcfdbd1d8b8155afc589ed814e6860023caafcb81110f470",
+      "snapshot_relative_path": "sources/snapshots/S12-robot-v5-logs.md",
+      "snapshot_sha256": "c15032a8fc4b381394d7e0358106c7fad3d35dda3dd4825f5183d68ad8148660"
+    },
+    {
+      "id": "S13",
+      "original_relative_path": "outputs/ドローン旧仕様_寸法参照用.md",
+      "original_sha256": "30ea0428e5732d6d76fde16299b6f1b50ff798fad1bed12ddda353de3f95fbcb",
+      "snapshot_relative_path": "sources/snapshots/S13-old-drone-spec.md",
+      "snapshot_sha256": "8201d4e2686f5806bab68a59e6f5d7d4b8812c27eee8604b039df761b798b245"
+    }
+  ]
+}

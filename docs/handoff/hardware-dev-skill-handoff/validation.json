@@ -1,0 +1,10 @@
+{
+  "conversation_turns": 84,
+  "snapshots": 13,
+  "eval_cases": 18,
+  "local_links_checked": 104,
+  "json_parsing": "passed",
+  "skill_implemented": false,
+  "evals_executed": false,
+  "historical_source_links": "not resolved: original assets and external links are not bundled"
+}
