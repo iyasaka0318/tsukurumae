@@ -1,0 +1,301 @@
+{
+  "title": "Raspberry Pi electronic lock development conversation",
+  "scope": "Available context only; not a complete exported transcript.",
+  "evidence": "User statements and pasted output are summarized; unavailable assistant text is not reconstructed.",
+  "turns": [
+    {
+      "id": "C001",
+      "anchor": "c001",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "相談の目的：先輩の電子錠と自作変更を比較し、bot差分は残してFeliCa改修を戻したい。"
+    },
+    {
+      "id": "C002",
+      "anchor": "c002",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "改良版／未変更版のローカルフォルダーを説明し、対象パスを訂正。"
+    },
+    {
+      "id": "C003",
+      "anchor": "c003",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "Gitへのcommit場所とpushの必要性を質問し、自分の電子錠リポジトリを提示。"
+    },
+    {
+      "id": "C004",
+      "anchor": "c004",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "PiへshadowJarをscpしsystemd再起動する手順を確認。転送は自分で実行すると明言。"
+    },
+    {
+      "id": "C005",
+      "anchor": "c005",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "Piのjournalctlでkeylockerが終了し、動かなくなったと報告。"
+    },
+    {
+      "id": "C006",
+      "anchor": "c006",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "systemctlの誤入力、unit、status、journalを提示。室内から退出可能で緊急性は低いと説明。"
+    },
+    {
+      "id": "C007",
+      "anchor": "c007",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "runKey.shがJava JAR、外部設定、tee追記で起動されると共有。"
+    },
+    {
+      "id": "C008",
+      "anchor": "c008",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "長いログでFeliCa読取・サーボ記録後にlibpigpio native SIGSEGVとPiGpio NOT INITIALIZEDを提示。"
+    },
+    {
+      "id": "C009",
+      "anchor": "c009",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "コード変更前に相談したいと明言。先輩版で鍵は動作し、自作変更でもセンサー不調は続いた。"
+    },
+    {
+      "id": "C010",
+      "anchor": "c010",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "手動起動でPI_INIT_FAILED。pigpiodはactiveと報告。"
+    },
+    {
+      "id": "C011",
+      "anchor": "c011",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "pigpiod stop/disable後も初期化失敗。以前GPIO方式やPi側設定を変更した覚えを共有。"
+    },
+    {
+      "id": "C012",
+      "anchor": "c012",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "sudo Java起動で止まったように見えると報告。"
+    },
+    {
+      "id": "C013",
+      "anchor": "c013",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "PowerShellのcurlがUriを聞いてきた。"
+    },
+    {
+      "id": "C014",
+      "anchor": "c014",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "Pi内curlではHTTP 200と画面HTMLが返った。"
+    },
+    {
+      "id": "C015",
+      "anchor": "c015",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "Ctrl-Cでnative SIGSEGV。systemd restart後はactiveでHTTP 200。"
+    },
+    {
+      "id": "C016",
+      "anchor": "c016",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "管理画面は開錠表示だがFeliCa・内側ボタンでもサーボ不動。ライトの挙動も報告。"
+    },
+    {
+      "id": "C017",
+      "anchor": "c017",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "手動起動中の再試験でエラーは出ないがモータ不動。"
+    },
+    {
+      "id": "C018",
+      "anchor": "c018",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "ログにはサーボ角度指令とoff、FeliCa・Discordログがあると共有。"
+    },
+    {
+      "id": "C019",
+      "anchor": "c019",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "application.confを提示。JWT・Discord値、チャンネル識別値は秘密扱いで値を除去。"
+    },
+    {
+      "id": "C020",
+      "anchor": "c020",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "設定を変えた覚えがあると追加。"
+    },
+    {
+      "id": "C021",
+      "anchor": "c021",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "FeliCaが最後の使用から不定時間後に入力停止し、抜き差しで復帰することが多いと説明。定期rebootとUSB省電力無効化は効かなかった。"
+    },
+    {
+      "id": "C022",
+      "anchor": "c022",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "最後の使用から1時間後のUSB電源操作案、Pi機種表示、lsusbとuhubctlのUSBトポロジーを共有。"
+    },
+    {
+      "id": "C023",
+      "anchor": "c023",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "一旦Gitへ上げ、磁気リーダーの消失／無入力問題も調べたいと希望。"
+    },
+    {
+      "id": "C024",
+      "anchor": "c024",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "別Python botがPing atを監視し短時間VC接続・音声再生するコード、systemd unit、USB電源fix unitを共有。常時接続は過去にループした。"
+    },
+    {
+      "id": "C025",
+      "anchor": "c025",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "後輩向けは大きな問題と実装方針だけ。鍵側は自分で担当。bot credential/JDAの話は外す方針を明示。"
+    },
+    {
+      "id": "C026",
+      "anchor": "c026",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "thread dump全文を提示。FeliCaの同期USB転送待ちなど。全文は要約し、カードUIDは除外。"
+    },
+    {
+      "id": "C027",
+      "anchor": "c027",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "dumpを物理・プログラム両側から技術的に説明してほしいと依頼。後にログの見方を質問。"
+    },
+    {
+      "id": "C028",
+      "anchor": "c028",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "binary grep、freeze/reopen、再起動後の復旧ログ等を追加。"
+    },
+    {
+      "id": "C029",
+      "anchor": "c029",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "簡潔に原因結果を求め、検知可否・USB抜き差しで治らない理由を質問。例外検索と新JAR未配布を訂正。"
+    },
+    {
+      "id": "C030",
+      "anchor": "c030",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "RCS380 sendCommandの所要時間だけ記録し、数日後に確認する試験を選択。"
+    },
+    {
+      "id": "C031",
+      "anchor": "c031",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "後輩がDiscord botを直す際に見るKotlinファイル箇所を質問。"
+    },
+    {
+      "id": "C032",
+      "anchor": "c032",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "数日分のfreeze/reopen/poll統計・読取ログを貼付。平均約17msなど。"
+    },
+    {
+      "id": "C033",
+      "anchor": "c033",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "runKey.shのログ出力とlogrotateを設定・再起動した結果を共有。"
+    },
+    {
+      "id": "C034",
+      "anchor": "c034",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "freeze検索・grep・クラッシュ記録の結果を提示し、現在の不調と発言。"
+    },
+    {
+      "id": "C035",
+      "anchor": "c035",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "別ログで磁気reader evdevイベント、magID、解錠判定、サーボ指令を提示。"
+    },
+    {
+      "id": "C036",
+      "anchor": "c036",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "USB抜き差しでは復旧せず、Pi再起動後に復旧したと報告。新JAR未配布だったと明示。"
+    },
+    {
+      "id": "C037",
+      "anchor": "c037",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "Codexプロジェクト設定、作業範囲・push許可・変更ファイル制限について相談。"
+    },
+    {
+      "id": "C038",
+      "anchor": "c038",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "scp後、Pi再起動まではフリーズしていたと報告し、ログ確認コマンドを質問。"
+    },
+    {
+      "id": "C039",
+      "anchor": "c039",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "サービス状態とFeliCa統計・freeze・reopen・起動ログを提示。一部未来日時のログとsocket reset/PiGpio例外もあった。"
+    },
+    {
+      "id": "C040",
+      "anchor": "c040",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "Piを二回再起動していない認識を述べ、確認コマンドと長文引継ぎプロンプトを依頼。"
+    },
+    {
+      "id": "C041",
+      "anchor": "c041",
+      "date": "unknown",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "journalctlに約25秒差でkeylocker stop/startが二組。pgrepはJava一つと提示。"
+    },
+    {
+      "id": "C042",
+      "anchor": "c042",
+      "date": "2026-10-06",
+      "kind": "ユーザー発言の要約。AI原文は多くのターンで取得不可。",
+      "summary": "今回：開発履歴をtsukurumae用資料にまとめ、証拠区分・秘密除去・GitHub指定ブランチへの限定pushを依頼。"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-10-06",
+  "evidence_scope": "Available current chat context; not a complete transcript export",
+  "target_folder": "docs/handoff/raspberrypi-door-lock-handoff/",
+  "source_turns": 42,
+  "findings": {
+    "F": 7,
+    "G": 6,
+    "E": 8,
+    "S": 0
+  },
+  "files": [
+    "README.md",
+    "docs/project-summary.md",
+    "evals/cases.md",
+    "examples/failures.md",
+    "examples/good-behaviors.md",
+    "sources/README.md",
+    "sources/conversation-index.json",
+    "sources/conversation.md",
+    "sources/snapshots/README.md"
+  ],
+  "checks": {
+    "json_index_parse": "passed; 42 entries",
+    "markdown_relative_links": "passed; 0 broken references",
+    "secret_pattern_scan": "passed; 0 hits",
+    "redaction_placeholder_occurrences": {
+      "credential": 3,
+      "channel_id": 3,
+      "account_id": 3,
+      "home_placeholder": 1,
+      "workspace_placeholder": 1
+    },
+    "local_paths_generalized": "passed; no literal Windows or Linux user-home paths copied",
+    "snapshot_copies": "none available; documented in sources/README.md",
+    "only_target_folder_modified": "verified by constructing one Git tree under docs/handoff/raspberrypi-door-lock-handoff/"
+  },
+  "issues": {
+    "broken_links": [],
+    "secret_hits": []
+  }
+}
