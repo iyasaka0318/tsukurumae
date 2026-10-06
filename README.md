@@ -13,10 +13,15 @@
 /tsukurumae ドローン作ろうと思ってる。計画はこれ（資料があれば添付）
 ```
 
-Codex では `$tsukurumae`。ハードウェアやソフトウェアを作る話題では、自動で読み込まれることもある。
+Codex では `$tsukurumae`。
 
-最初は**要件定義の段階**。AI が目的を言葉にして「これで合っていますか」と確かめ、開いた質問で方針を一緒に決める。あなたが話題にしていない分野（電装など）も AI から持ち出す。合意するまでコードや CAD は出さない。
-合意したら `TSUKURUMAE_REQUIREMENTS.md`（要件定義書）に残し、**実行の段階**に移る。実行中の状態は `TSUKURUMAE_LEDGER.md`（台帳）に記録する。
+1. **要件定義（この Skill）**：AI が目的を確かめ、作ること自体が目的か手段かを見分け、あなたが選んだ手段を一段上から見直して提案する。開いた質問で方針を一緒に決める。合意するまでコードや CAD は出さない。
+2. **合意したら、AI が3つ作る**
+   - `TSUKURUMAE_REQUIREMENTS.md`：決めたこと（あなたが読む）
+   - `TSUKURUMAE_GUIDE.md`：この案件専用の指示書（作業する AI が読む）
+   - `CLAUDE.md` / `AGENTS.md` に「指示書を読む」の1行
+3. **作業は新しい会話で始める。** Claude Code も Codex も `CLAUDE.md` / `AGENTS.md` を自動で読むので、`/tsukurumae` なしで指示書に従って進む。
+4. **方針を変えたいときは** `/tsukurumae 見直して` で、要件定義書と指示書を更新する。
 
 ## インストール
 
@@ -51,34 +56,24 @@ cp -r skills/tsukurumae ~/.agents/skills/
 
 クラウドのセッションでは、ユーザー設定のプラグインが引き継がれないことがある。クラウドで使うプロジェクトでは、そのリポジトリの `.claude/skills/tsukurumae/`（Codex は `.agents/skills/tsukurumae/`）に置く。
 
-台帳があるプロジェクトで毎回確実に使わせたい場合は、そのプロジェクトの `CLAUDE.md` または `AGENTS.md` に次の1行を加える。
-
-```
-このプロジェクトでは TSUKURUMAE_LEDGER.md を読み、tsukurumae スキルに従って作業する。
-```
-
 ## 構成
 
 ```
-.claude-plugin/               Claude Code のプラグイン定義
-.codex-plugin/                Codex のプラグイン定義
-.agents/plugins/              Codex のマーケットプレイス定義
+.claude-plugin/ .codex-plugin/ .agents/plugins/   プラグインの定義
 skills/tsukurumae/
-  SKILL.md                   本体：最優先ルール、始め方、原則、質問の出し方、送信前チェック
-  agents/openai.yaml         Codex 用の設定
+  SKILL.md                    本体：要件定義の考え方と、終わり方
+  agents/openai.yaml          Codex 用の設定
   references/
-    intake.md                要件定義の段階の進め方と、分野ごとの観点
-    requirements-template.md 要件定義書の書式
-    readiness.md             作業ごとの確定条件
-    evidence.md              証拠の強さと検証の段階
-    hardware.md              ハードウェアの確認観点
-    software.md              ソフトウェアの確認観点
-    rework-catalog.md        実例から作った手戻りのパターン
-    ledger-template.md       台帳の書式
-docs/
-  requirements.md            原要件
-  design-memo.md             設計メモ
-  handoff/                   実際の開発会話から作った実例資料と評価ケース
+    intake.md                 要件定義の観点の例（縛られない）
+    requirements-template.md  要件定義書の書式
+    guide-template.md         案件専用の指示書の書式
+    feedback.md               改善用の記録の書式
+    materials/                指示書を作るときに選んで使う材料（証拠、確定条件、ハード・ソフトの観点、過去の手戻り）
+TSUKURUMAE_REQUIREMENTS.md    この開発の要件定義書
+TSUKURUMAE_GUIDE.md           この開発の指示書
+docs/                         要件の履歴、設計メモ、実例資料（handoff）
+evals/                        評価の記録（run-01〜05）
+feedback/                     使用中のフィードバックの取り込み
 ```
 
 ## 使いながら直す
