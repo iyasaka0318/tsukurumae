@@ -1,0 +1,20 @@
+{
+ "H-E01": "X=skill",
+ "H-E02": "Y=skill",
+ "H-E03": "Y=skill",
+ "H-E10": "Y=skill",
+ "H-E12": "Y=skill",
+ "H-E13": "X=skill",
+ "H-E15": "Y=skill",
+ "D-E01": "Y=skill",
+ "D-E07": "Y=skill",
+ "D-E11": "Y=skill",
+ "D-E13": "X=skill",
+ "D-E15": "X=skill",
+ "X-E07": "X=skill",
+ "N1": "X=skill",
+ "N2": "Y=skill",
+ "N3": "X=skill",
+ "N4": "X=skill",
+ "N5": "X=skill"
+}
