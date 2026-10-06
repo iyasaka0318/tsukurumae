@@ -1,0 +1,7 @@
+interface:
+  display_name: "tsukurumae"
+  short_description: "作る前に確かめて、開発の手戻りを減らす"
+  default_prompt: "Use $tsukurumae to plan this build: find what must be confirmed before building, separate what to research from what to ask, and keep a ledger."
+
+policy:
+  allow_implicit_invocation: true
