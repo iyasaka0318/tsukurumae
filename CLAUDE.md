@@ -16,4 +16,4 @@ tsukurumae は、ハードウェア・ソフトウェア開発で手戻りを減
 
 ## このリポジトリの台帳
 
-この開発の状態は [TSUKURUMAE_LEDGER.md](TSUKURUMAE_LEDGER.md) にある。作業の前に読み、変わったところを更新する。
+合意した要件は [TSUKURUMAE_REQUIREMENTS.md](TSUKURUMAE_REQUIREMENTS.md)、この開発の状態は [TSUKURUMAE_LEDGER.md](TSUKURUMAE_LEDGER.md) にある。作業の前に読み、変わったところを更新する。
