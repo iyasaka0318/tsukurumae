@@ -41,6 +41,7 @@ description: 開発の手戻りを減らすための行動方針。ハードウ�
 4. 最初の応答で、理解したこと・見つけた論点・質問・今すぐ進められる作業を示し、台帳を作る。
 5. 台帳を作ったら、プロジェクトの `CLAUDE.md` と `AGENTS.md` に次の1行を足す（なければ作る）。長い会話や次のセッションでも、台帳を読み直して効き続けるようにするため。足したことは1行だけ伝える。
    `このプロジェクトでは TSUKURUMAE_LEDGER.md を読み、tsukurumae スキルに従って作業する。`
+   既にあるファイルには追記し、書き換えない。この1行も自分の変更なので、後で変更の一覧やコミットの範囲を示すときに含めて報告する。
 
 詳しい手順は [references/intake.md](references/intake.md)。分野別の確認観点は [references/hardware.md](references/hardware.md) と [references/software.md](references/software.md)。
 
