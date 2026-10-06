@@ -6,7 +6,7 @@
   "findings": {
     "F": 7,
     "G": 6,
-    "E": 8,
+    "E": 9,
     "S": 0
   },
   "files": [
@@ -33,7 +33,7 @@
     },
     "local_paths_generalized": "passed; no literal Windows or Linux user-home paths copied",
     "snapshot_copies": "none available; documented in sources/README.md",
-    "only_target_folder_modified": "verified by constructing one Git tree under docs/handoff/raspberrypi-door-lock-handoff/"
+    "only_target_folder_modified": "pending final remote diff check"
   },
   "issues": {
     "broken_links": [],
