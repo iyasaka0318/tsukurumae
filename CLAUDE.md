@@ -1,6 +1,6 @@
 # このリポジトリについて
 
-tsukurumae は、ハードウェア・ソフトウェア開発で手戻りを減らすための Agent Skill。本体は `skills/tsukurumae/`。
+tsukurumae は、作る前に目的から要件を AI と一緒に決め、目的をよりよく実現できる方針を見つけるための Agent Skill。ハードウェア・ソフトウェア・途中からの改修で使う。本体は `skills/tsukurumae/`。
 回答・文書は日本語で書く。
 
 ## よくある依頼

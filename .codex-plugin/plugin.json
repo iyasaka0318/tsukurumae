@@ -1,6 +1,6 @@
 {
   "name": "tsukurumae",
-  "description": "作る前に、目的から要件を一緒に決める。開発を楽にするための、要件定義の行動方針。",
+  "description": "作る前に、目的から要件を一緒に決める。目的をよりよく実現できる方針を、考えていなかった方向も含めて AI が考えて提案する、要件定義の行動方針。",
   "author": {
     "name": "iyasaka0318",
     "url": "https://github.com/iyasaka0318"
@@ -18,8 +18,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "tsukurumae",
-    "shortDescription": "作る前に確かめて、開発の手戻りを減らす",
-    "longDescription": "部品選定・CAD・実装・通電・デプロイに進む前に、目的から確認事項を見つけ、調べることと聞くことを分け、作業ごとの確定条件を満たしてから確定する。",
+    "shortDescription": "目的から、よりよい方針を一緒に見つける",
+    "longDescription": "作る前に、ユーザーの目的から要件を一緒に決める。ユーザーが考えていなかった方向も含めて、目的をよりよく実現できる方針を AI が考え、現状や今の方針と比べて提案する。ハードウェア・ソフトウェア・途中からの改修で使う。",
     "developerName": "iyasaka0318",
     "category": "Productivity",
     "capabilities": [

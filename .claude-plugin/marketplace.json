@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "tsukurumae",
-      "description": "ハード・ソフト・改修の開発で、目的から要件を一緒に決め、無駄な生成とターンを減らす。",
+      "description": "ハード・ソフト・改修の開発で、目的をよりよく実現できる方針を AI と一緒に見つけて決める。",
       "source": "./",
       "category": "development"
     }
