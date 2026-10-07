@@ -1,14 +1,14 @@
 {
   "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
   "name": "tsukurumae",
-  "description": "作る前に、目的から要件を一緒に決める Skill。",
+  "description": "始める前に、目的から何をどう進めるかを一緒に決める Skill。",
   "owner": {
     "name": "iyasaka0318"
   },
   "plugins": [
     {
       "name": "tsukurumae",
-      "description": "ハード・ソフト・改修の開発で、目的をよりよく実現できる方針を AI と一緒に見つけて決める。",
+      "description": "開発・改修や研究・企画で、目的をよりよく実現できる方針を AI と一緒に見つけて決める。",
       "source": "./",
       "category": "development"
     }

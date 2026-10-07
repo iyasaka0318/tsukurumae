@@ -1,7 +1,7 @@
 interface:
   display_name: "tsukurumae"
-  short_description: "作る前に、目的から要件を一緒に決める"
-  default_prompt: "Use $tsukurumae to define the requirements for this build: clarify the goal together, think about what would better achieve it (including directions I have not considered), and write the requirements and a project guide."
+  short_description: "始める前に、目的から何をどう進めるかを一緒に決める"
+  default_prompt: "Use $tsukurumae before starting this work: clarify the goal together, think about what would better achieve it (including directions I have not considered), decide the direction with me, and record what we decided in a form that fits this work."
 
 policy:
   allow_implicit_invocation: true
