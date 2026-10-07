@@ -39,4 +39,5 @@
 ## 見直し
 方針が変わる、または、ここに書いていない分野が出てきたら、ユーザーに `/tsukurumae` で見直すよう伝える。
 ユーザーが AI の振る舞いを直したら、その事実を `TSUKURUMAE_FEEDBACK.md` に追記する（tsukurumae の開発中だけ）。
+「作る前用のフィードバック作って」と言われたら、tsukurumae の Skill の `references/feedback.md` にある「フィードバックを送る」の手順に従う。
 ```

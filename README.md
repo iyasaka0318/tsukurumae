@@ -28,6 +28,7 @@ Codex では `$tsukurumae`。
 ### プラグインとして入れる（おすすめ）
 
 各マシンで1回だけ実行する。Skill を直して push したら、更新コマンドで反映される。
+手でコピーした `~/.claude/skills/tsukurumae` が残っていると、古い版が読まれることがある。プラグインに切り替えたら消す。
 
 ```bash
 # Claude Code

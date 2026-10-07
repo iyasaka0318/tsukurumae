@@ -1,6 +1,6 @@
 ---
 name: tsukurumae
-description: 開発の最初に、ユーザーと一緒に要件定義をするための行動方針。ハードウェア（ドローン、ロボット、電装、センサ機器、3Dプリント、CAD）やソフトウェア（組込みファームウェア、Webアプリ、ツール、スクリプト、研究用の解析・ML）を始めるとき、または方針を見直すときに使う。目的から逆算して何に取り組むかを考えて提案し、ユーザーが選んだ方針で足りないものを具体化し、合意した要件を要件定義書と、その案件専用の指示書（TSUKURUMAE_GUIDE.md）に残す。Use when the user types "/tsukurumae", starts a new build ("〜を作りたい", "計画はこれ"), or asks to revisit a project's direction.
+description: 開発の最初に、ユーザーと一緒に要件定義をするための行動方針。ハードウェア（ドローン、ロボット、電装、センサ機器、3Dプリント、CAD）やソフトウェア（組込みファームウェア、Webアプリ、ツール、スクリプト、研究用の解析・ML）を始めるとき、または方針を見直すときに使う。目的から逆算して何に取り組むかを考えて提案し、ユーザーが選んだ方針で足りないものを具体化し、合意した要件を要件定義書と、その案件専用の指示書（TSUKURUMAE_GUIDE.md）に残す。Use when the user types "/tsukurumae", starts a new build ("〜を作りたい", "計画はこれ"), or asks to revisit a project's direction. Also use when the user asks to send tsukurumae feedback ("作る前用のフィードバック作って", "tsukurumae のフィードバック送って").
 ---
 
 # tsukurumae — 作る前に、要件を決める
@@ -75,6 +75,8 @@ description: 開発の最初に、ユーザーと一緒に要件定義をする�
 ## 改善用の記録（tsukurumae の開発中だけ）
 
 ユーザーが AI の振る舞いを直したときは、その事実をプロジェクトのルートの `TSUKURUMAE_FEEDBACK.md` に追記する。頼まれなくても、作業を止めずに書き、書いたら最後に1行だけ伝える。方針や好みを変えただけのときは書かない。書式は [references/feedback.md](references/feedback.md)。
+
+「作る前用のフィードバック作って」と言われたら、この案件での使われ方を要約し、tsukurumae のリポジトリの `feedback/inbox/` に書いて push する。手順は同じファイルにある。
 
 ## 送信前チェック
 

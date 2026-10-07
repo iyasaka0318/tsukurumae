@@ -1,14 +1,14 @@
 {
   "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
   "name": "tsukurumae",
-  "description": "作る前に、作るために必要なことを確かめる Skill。",
+  "description": "作る前に、目的から要件を一緒に決める Skill。",
   "owner": {
     "name": "iyasaka0318"
   },
   "plugins": [
     {
       "name": "tsukurumae",
-      "description": "ハードウェア・ソフトウェア開発で、作る前に確かめれば防げた手戻りを減らす。",
+      "description": "ハード・ソフト・改修の開発で、目的から要件を一緒に決め、無駄な生成とターンを減らす。",
       "source": "./",
       "category": "development"
     }

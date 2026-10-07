@@ -1,6 +1,6 @@
 {
   "name": "tsukurumae",
-  "description": "作る前に、作るために必要なことを確かめる。ハードウェア・ソフトウェア開発の手戻りを減らす行動方針。",
+  "description": "作る前に、目的から要件を一緒に決める。開発を楽にするための、要件定義の行動方針。",
   "author": {
     "name": "iyasaka0318",
     "url": "https://github.com/iyasaka0318"

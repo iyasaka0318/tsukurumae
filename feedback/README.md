@@ -5,7 +5,8 @@ tsukurumae を実際に使ったときの指摘を集め、Skill の改善に回
 ## 流れ
 
 1. **記録**：各プロジェクトで、AI がユーザーの指摘を `TSUKURUMAE_FEEDBACK.md` に自動で追記する（[references/feedback.md](../skills/tsukurumae/references/feedback.md)）。
-2. **取り込み**：このリポジトリで「フィードバック取り込んで」と言い、その内容を渡す（ファイルの中身を貼る、パスを伝える、など）。AI が `inbox/YYYY-MM-DD-<プロジェクト名>.md` として保存する。
+2. **送る**：その案件の会話で「作る前用のフィードバック作って」と言う。AI が使われ方を要約し、PC の tsukurumae の clone（既定：ホームの `.claude/tsukurumae-repo`）の `inbox/YYYY-MM-DD-<プロジェクト名>.md` に書いて push する（[references/feedback.md](../skills/tsukurumae/references/feedback.md) の「フィードバックを送る」）。
+   手で渡すこともできる。このリポジトリで「フィードバック取り込んで」と言い、内容を貼る。
 3. **反映**：AI が各項目を仕分けて、次のどれかに反映する。
    - 手戻りのパターン → `skills/tsukurumae/references/rework-catalog.md`
    - 原則・確定条件の不足 → `SKILL.md` や `references/`
@@ -15,4 +16,4 @@ tsukurumae を実際に使ったときの指摘を集め、Skill の改善に回
 
 ## 状態
 
-- `inbox/` に未処理のファイルがあれば、まずそれを処理する。
+- `inbox/` に未処理の項目（「反映：」が付いていないもの）があれば、まずそれを処理する。
