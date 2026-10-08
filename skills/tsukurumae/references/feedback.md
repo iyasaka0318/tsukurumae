@@ -44,12 +44,16 @@ tsukurumae 自体を改善するための記録。ユーザーが AI の振る�
 
 ユーザーが「作る前用のフィードバック作って」「tsukurumae のフィードバック送って」と言ったら、この案件での tsukurumae の使われ方を要約して、tsukurumae のリポジトリに上げる。ユーザーにファイルを渡させない。
 
+方針を決めた会話と作業の会話が別なら、方針を決めた会話の終わりにも送るとよい。取り下げた案の経緯やユーザーの反応は、その会話でしか拾えない。
+
 ### 送り先
 
 - tsukurumae のリポジトリの clone。既定の場所はホームフォルダーの `.claude/tsukurumae-repo`。
   - Windows：`%USERPROFILE%\.claude\tsukurumae-repo`
   - WSL から：`/mnt/c/Users/<Windows のユーザー名>/.claude/tsukurumae-repo`
-- 見つからなければ、場所をユーザーに1回だけ聞く。
+  - Linux・Mac：`~/.claude/tsukurumae-repo`
+- 見つからなければ、既定の場所に `git clone https://github.com/iyasaka0318/tsukurumae.git` する。
+- clone で Git の名前とメールアドレスが未設定なら、commit の前にユーザーに伝え、ユーザーが決めた値をその clone だけに設定する（`git config user.name` / `user.email`、`--global` は使わない）。
 - 書くファイル：`feedback/inbox/YYYY-MM-DD-<案件名>.md`。同じ案件のファイルが既にあれば、末尾に追記する。
 
 ### 中身
